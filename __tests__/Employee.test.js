@@ -4,7 +4,7 @@ describe("Employee", () => {
 
     describe("Initialization", () => {
 
-        it(`It should create an object with key values of 'employeeName', 'employeeID', 'employeeEmail' & 'role'`, () => {
+        it(`It should create an object with values of 'employeeName', 'employeeID', 'employeeEmail' & 'role'`, () => {
             const employeeData = new Employee('tika', 1, 'tika@my.com');
             
             expect(employeeData.employeeName).toEqual("tika");
@@ -14,21 +14,21 @@ describe("Employee", () => {
         });
   
         it("It should create a method of getName", () => {
-            const employeeData = new Employee('tika', '1', 'tika@my.com');
+            const employeeNameData = new Employee('tika', '1', 'tika@my.com');
     
-            expect(employeeData.getName()).toEqual('tika');
+            expect(employeeNameData.getName()).toEqual('tika');
         });
 
         it("It should create a method of getEmail", () => {
-            const employeeData = new Employee('tika', '1', 'tika@my.com');
+            const employeeEmailData = new Employee('tika', '1', 'tika@my.com');
     
-            expect(employeeData.getEmail()).toEqual('tika@my.com');
+            expect(employeeEmailData.getEmail()).toEqual('tika@my.com');
         });
 
         it("It should create a method of getId", () => {
-            const employeeData = new Employee('tika', '1', 'tika@my.com');
+            const employeeIdData = new Employee('tika', '1', 'tika@my.com');
     
-            expect(employeeData.getId()).toEqual('1');
+            expect(employeeIdData.getId()).toEqual('1');
         });
 
         it("It should create a method of getRole", () => {

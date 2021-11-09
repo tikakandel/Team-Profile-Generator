@@ -39,95 +39,62 @@
     <!-- jQuery JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    
-            <script>
+     <script>
             var col = $('<div class="col-4">');
             var card = $('<div class="card mx-auto border-info mb-3" style="max-width: 18rem;">');
-            var header1 = $('<div class="card-header text-center h4">');
-            header1.text("tika");
-            var header2 = $('<div class="card-header text-center">');
+            var employeeName = $('<div class="card-header text-center h4">');
+            employeeName.text("Tika");
+            var employeeRole = $('<div class="card-header text-center">');
             var icon = $('<i class="fas fa-user-secret fa-3x">');
-            header2.text(" Manager");
-            header2.prepend(icon);
+            employeeRole.text(" Manager");
+            employeeRole.prepend(icon);
 
             var cardBody = $('<div class="card-body text-info">');
             var cardTitle = $('<h5 class="card-title">');
            
-            var cardText = $('<p class="card-text">');
-            cardText.text("ID: 23");
-            var cardText2 = $('<p class="card-text">');
-            cardText2.text("Email: tr@g");
-            var cardText3 = $('<p class="card-text">');
-            cardText3.text("Office #: 3");
+            var employeeId = $('<p class="card-text">');
+            employeeId.text("ID: 232");
+            var employeeEmail = $('<a class="card-text">');
+            employeeEmail.text("Email: sdfa@dfs");
+            var employeeDisc = $('<p class="card-text">');
+            employeeDisc.text("Office #: 234324");
             cardBody.append(cardTitle);
-            cardBody.append(cardText);
-            cardBody.append(cardText2);
-            cardBody.append(cardText3);
+            cardBody.append(employeeId);
+            cardBody.append(employeeEmail);
+            cardBody.append(employeeDisc);
     
-            card.append(header1);
-            card.append(header2);
+            card.append(employeeName);
+            card.append(employeeRole);
             card.append(cardBody);
             col.append(card);
             $("#cards").append(col);    
             </script>        
-            
-            <script>
+             <script>
             var col = $('<div class="col-4">');
             var card = $('<div class="card mx-auto border-info mb-3" style="max-width: 18rem;">');
-            var header1 = $('<div class="card-header text-center h4">');
-            header1.text("tr");
-            var header2 = $('<div class="card-header text-center">');
+            var employeeName = $('<div class="card-header text-center h4">');
+            employeeName.text("safa");
+            var employeeRole = $('<div class="card-header text-center">');
             var icon = $('<i class="fas fa-tools fa-3x">');
-            header2.text(" Engineer");
-            header2.prepend(icon);
+            employeeRole.text(" Engineer");
+            employeeRole.prepend(icon);
 
             var cardBody = $('<div class="card-body text-info">');
             var cardTitle = $('<h5 class="card-title">');
            
-            var cardText = $('<p class="card-text">');
-            cardText.text("ID: 22");
-            var cardText2 = $('<p class="card-text">');
-            cardText2.text("Email: tr@g");
-            var cardText3 = $('<p class="card-text">');
-            cardText3.text("Github: 34");
+            var employeeId = $('<p class="card-text">');
+            employeeId.text("ID: 234324");
+            var employeeEmail = $('<a class="card-text">');
+            employeeEmail.text("Email: sda@DF");
+            var employeeDisc = $('<p class="card-text">');
+            employeeDisc.text("https://github.com/SFS ");
             cardBody.append(cardTitle);
-            cardBody.append(cardText);
-            cardBody.append(cardText2);
-            cardBody.append(cardText3);
+            cardBody.append(employeeId);
+            cardBody.append(employeeEmail);
+            cardBody.append(employeeDisc);
     
-            card.append(header1);
-            card.append(header2);
-            card.append(cardBody);
-            col.append(card);
-            $("#cards").append(col);    
-            </script>        
-            
-            <script>
-            var col = $('<div class="col-4">');
-            var card = $('<div class="card mx-auto border-info mb-3" style="max-width: 18rem;">');
-            var header1 = $('<div class="card-header text-center h4">');
-            header1.text("sdfs");
-            var header2 = $('<div class="card-header text-center">');
-            var icon = $('<i class="fas fa-user-graduate fa-3x">');
-            header2.text(" Intern");
-            header2.prepend(icon);
-
-            var cardBody = $('<div class="card-body text-info">');
-            var cardTitle = $('<h5 class="card-title">');
-           
-            var cardText = $('<p class="card-text">');
-            cardText.text("ID: 12");
-            var cardText2 = $('<p class="card-text">');
-            cardText2.text("Email: tika@sdfa");
-            var cardText3 = $('<p class="card-text">');
-            cardText3.text("School: n");
-            cardBody.append(cardTitle);
-            cardBody.append(cardText);
-            cardBody.append(cardText2);
-            cardBody.append(cardText3);
-    
-            card.append(header1);
-            card.append(header2);
+            card.append(employeeName);
+            card.append(employeeRole);
             card.append(cardBody);
             col.append(card);
             $("#cards").append(col);    
